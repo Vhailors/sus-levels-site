@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sus Levels — the level is lying to you</title>
+<meta name="description" content="Sus Levels is a troll platformer: 50 handcrafted levels of betrayal, a new Daily Troll every day, ghosts of everyone who died before you, and ads that actually respect you.">
+<style>
+  :root{--void:#1a1026;--purple:#6c4ab6;--lav:#8d6cc9;--cream:#f2e9dc;--green:#3ddc84;--red:#ff5470}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--void);color:var(--cream);font:18px/1.6 system-ui,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 20px}
+  header{text-align:center;padding:64px 0 40px}
+  header img.logo{max-width:420px;width:90%}
+  header h1{font-size:56px;letter-spacing:2px}
+  .tag{color:var(--red);font-weight:600;margin-top:8px}
+  .hero{display:flex;justify-content:center;gap:24px;align-items:flex-end;margin:36px 0}
+  .hero img{height:140px;image-rendering:auto;animation:bob 2.4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+  .badges{display:flex;gap:14px;justify-content:center;margin:28px 0 8px}
+  .badge{background:var(--purple);color:var(--cream);padding:12px 22px;border-radius:12px;text-decoration:none;font-weight:700}
+  .badge.soon{opacity:.55;cursor:default}
+  section{margin:44px 0;background:#241634;border:1px solid #3a2454;border-radius:16px;padding:28px}
+  h2{color:var(--lav);font-size:22px;margin-bottom:10px}
+  footer{text-align:center;color:var(--lav);padding:40px 0;font-size:14px}
+  footer a{color:var(--lav)}
+  .kbd{color:var(--green);font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="logo" src="assets/wordmark.png" alt="SUS LEVELS" onerror="this.outerHTML='<h1>SUS LEVELS</h1>'">
+    <p class="tag">it's not a troll game. promise.</p>
+    <div class="hero">
+      <img src="assets/imp.png" alt="the imp" onerror="this.remove()">
+      <img src="assets/door.png" alt="a door you can definitely trust" style="animation:none" onerror="this.remove()">
+    </div>
+    <div class="badges">
+      <span class="badge soon">Google Play — soon</span>
+      <span class="badge soon">App Store — soon</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>Why does the level keep killing me?</h2>
+    <p>Because it's lying. Floors resign mid-step, doors run away, the
+    level-clear screen itself is occasionally a trap. Every one of the 50
+    levels hides ONE signature betrayal — your job is to stop trusting and
+    start <span class="kbd">jumping anyway</span>.</p>
+  </section>
+
+  <section>
+    <h2>What is the Daily Troll?</h2>
+    <p>One new level a day, the same for everyone on Earth. Build a streak,
+    compare deaths, and watch the ghosts of everyone who fell for it before
+    you — their last runs replay faintly as you play.</p>
+  </section>
+
+  <section>
+    <h2>Do the ads ruin it?</h2>
+    <p>No — that's the whole point. Sus Levels uses <em>respectful ads</em>:
+    die a lot on a level and we leave you alone (frustration grace), never
+    mid-level, never forced difficulty. Remove them once for $4.99 if you
+    like, or take the Imp Bribe.</p>
+  </section>
+
+  <section>
+    <h2>Is it actually beatable?</h2>
+    <p>Every level — including mirrored remix mode — is machine-verified
+    beatable before it ships. Speedrun leaderboards only accept runs whose
+    input recordings replay successfully. No honor system. The imp checks.</p>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> · contact:
+    vwaytofly@gmail.com · © 2026 Sus Levels
+  </footer>
+</div>
+</body>
+</html>
