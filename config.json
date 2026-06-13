@@ -1,0 +1,8 @@
+{
+  "interstitial_min_levels_between": 2,
+  "interstitial_death_grace": 3,
+  "interstitial_grace_levels": 3,
+  "rewarded_skip_unlock_deaths": 10,
+  "starter_pack_price_tier": "2.99",
+  "community_url": ""
+}
